@@ -10,3 +10,8 @@ def srujana(request):
 
 def revi(request):
     return HttpResponse('<marquee><b><h2>how are you </h1></b></marquee>')
+
+
+
+def home(request):
+    return render(request,'home.html')
